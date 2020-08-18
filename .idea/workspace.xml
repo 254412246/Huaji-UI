@@ -28,7 +28,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98ab9bdc-5cea-45b0-b371-711d37aec255" name="默认的" comment="" />
+    <list default="true" id="98ab9bdc-5cea-45b0-b371-711d37aec255" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/icon.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +100,7 @@
       <workItem from="1597726351259" duration="75000" />
       <workItem from="1597726438645" duration="3657000" />
       <workItem from="1597733898903" duration="4025000" />
-      <workItem from="1597738785454" duration="2628000" />
+      <workItem from="1597738785454" duration="2966000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1597682441065</created>
@@ -124,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597772895926</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="验证 iconPosition 为 left 或 right 中的一个">
+      <created>1597773191881</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597773191881</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -163,7 +176,8 @@
     <MESSAGE value="安装 package" />
     <MESSAGE value="将 button 组件改为单文件组件" />
     <MESSAGE value="填写 icon 和 iconPosition 属性" />
-    <option name="LAST_COMMIT_MESSAGE" value="填写 icon 和 iconPosition 属性" />
+    <MESSAGE value="验证 iconPosition 为 left 或 right 中的一个" />
+    <option name="LAST_COMMIT_MESSAGE" value="验证 iconPosition 为 left 或 right 中的一个" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="281" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1597678883226">
@@ -174,10 +188,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="695" y="170" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597735382344" />
-    <state x="458" y="0" width="728" height="824" key="CommitChangelistDialog2" timestamp="1597772894909">
+    <state x="458" y="0" width="728" height="824" key="CommitChangelistDialog2" timestamp="1597773191141">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="458" y="0" width="728" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597772894909" />
+    <state x="458" y="0" width="728" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597773191141" />
     <state x="744" y="153" key="FileChooserDialogImpl" timestamp="1597679441799">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
