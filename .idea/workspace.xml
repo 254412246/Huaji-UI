@@ -3,28 +3,44 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="98ab9bdc-5cea-45b0-b371-711d37aec255" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gulu-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/3d/b2c174733451d1160071fb02138c93.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/3d/b2c174733451d1160071fb02138c93.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/55/ddf9062d5c5d34fef037824ad24e8e.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/55/ddf9062d5c5d34fef037824ad24e8e.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/71/723772c18a211c0636a5a77cb283f5.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/71/723772c18a211c0636a5a77cb283f5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/85/bf5929d79c4c8d512d149742e22945.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/85/bf5929d79c4c8d512d149742e22945.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/8f/a4675090c497880ce1a33d20680f6b.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/8f/a4675090c497880ce1a33d20680f6b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/3d/b2c174733451d1160071fb02138c93.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/55/ddf9062d5c5d34fef037824ad24e8e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/6c/9c50738d7f00e711aa511d1d200172.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/71/723772c18a211c0636a5a77cb283f5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/85/bf5929d79c4c8d512d149742e22945.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/8f/a4675090c497880ce1a33d20680f6b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gulu-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gulu-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/vue.min.ee463479.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vue.min.ee463479.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/vue.min.ee463479.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vue.min.ee463479.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +86,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.css" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -91,7 +107,8 @@
       <workItem from="1597725436568" duration="742000" />
       <workItem from="1597726351259" duration="75000" />
       <workItem from="1597726438645" duration="3657000" />
-      <workItem from="1597733898903" duration="2970000" />
+      <workItem from="1597733898903" duration="4025000" />
+      <workItem from="1597738785454" duration="2283000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1597682441065</created>
@@ -107,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597735030005</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="将 button 组件改为单文件组件">
+      <created>1597737502230</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597737502230</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -116,11 +140,36 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="npm install vue" />
     <MESSAGE value="安装 package" />
-    <option name="LAST_COMMIT_MESSAGE" value="安装 package" />
+    <MESSAGE value="将 button 组件改为单文件组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="将 button 组件改为单文件组件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="281" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1597678883226">
@@ -131,25 +180,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="695" y="170" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597735382344" />
-    <state x="458" y="0" width="728" height="824" key="CommitChangelistDialog2" timestamp="1597735028675">
+    <state x="458" y="0" width="728" height="824" key="CommitChangelistDialog2" timestamp="1597737500232">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="458" y="0" width="728" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597735028675" />
+    <state x="458" y="0" width="728" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597737500232" />
     <state x="744" y="153" key="FileChooserDialogImpl" timestamp="1597679441799">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="744" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597679441799" />
-    <state x="463" y="65" key="SettingsEditor" timestamp="1597682853773">
+    <state x="463" y="65" key="SettingsEditor" timestamp="1597765873155">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="463" y="65" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597682853773" />
+    <state x="463" y="65" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597765873155" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597682476741">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597682476741" />
-    <state x="666" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1597735638270">
+    <state x="666" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1597737290954">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="666" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1597735638270" />
+    <state x="666" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1597737290954" />
   </component>
 </project>
