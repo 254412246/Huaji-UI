@@ -29,10 +29,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98ab9bdc-5cea-45b0-b371-711d37aec255" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gulu-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gulu-demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
     </list>
     <list id="dbe5dff6-9400-48f1-9d98-7a1af36c47bc" name="闭合标签" comment="">
@@ -62,9 +64,9 @@
   <component name="LineStatusTrackerManager">
     <file path="$PROJECT_DIR$/src/button.vue">
       <ranges>
-        <range start1="2" end1="3" start2="2" end2="4" changelist="dbe5dff6-9400-48f1-9d98-7a1af36c47bc" />
-        <range start1="24" end1="24" start2="25" end2="30" changelist="98ab9bdc-5cea-45b0-b371-711d37aec255" />
-        <range start1="39" end1="39" start2="45" end2="48" changelist="98ab9bdc-5cea-45b0-b371-711d37aec255" />
+        <range start1="1" end1="3" start2="1" end2="5" changelist="dbe5dff6-9400-48f1-9d98-7a1af36c47bc" />
+        <range start1="4" end1="5" start2="6" end2="6" changelist="98ab9bdc-5cea-45b0-b371-711d37aec255" />
+        <range start1="13" end1="13" start2="14" end2="18" changelist="98ab9bdc-5cea-45b0-b371-711d37aec255" />
       </ranges>
     </file>
   </component>
@@ -113,7 +115,7 @@
       <workItem from="1597726351259" duration="75000" />
       <workItem from="1597726438645" duration="3657000" />
       <workItem from="1597733898903" duration="4025000" />
-      <workItem from="1597738785454" duration="4542000" />
+      <workItem from="1597738785454" duration="5049000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1597682441065</created>
@@ -178,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597773674206</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="添加菊花状态">
+      <created>1597847482049</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1597847482049</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -222,7 +231,8 @@
     <MESSAGE value="更新 button 里面 icon 的样式" />
     <MESSAGE value="闭合标签" />
     <MESSAGE value="闭合标签会有bug，所以取消了" />
-    <option name="LAST_COMMIT_MESSAGE" value="闭合标签会有bug，所以取消了" />
+    <MESSAGE value="添加菊花状态" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加菊花状态" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="281" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1597678883226">
@@ -233,10 +243,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="695" y="170" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597735382344" />
-    <state x="458" y="0" width="728" height="824" key="CommitChangelistDialog2" timestamp="1597773673463">
+    <state x="458" y="0" width="728" height="824" key="CommitChangelistDialog2" timestamp="1597847480826">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="458" y="0" width="728" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597773673463" />
+    <state x="458" y="0" width="728" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597847480826" />
     <state x="744" y="153" key="FileChooserDialogImpl" timestamp="1597679441799">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
