@@ -2,10 +2,14 @@ import Vue from 'vue'
 import Button from './button'
 import Icon from './icon'
 import ButtonGroup from './button-group'
+import Input from './input'
 
 Vue.component('g-button', Button)
 Vue.component('g-icon', Icon)
 Vue.component('g-button-group', ButtonGroup)
+Vue.component('g-input', Input)
+
+
 new Vue({
 el: '#app',
     data: {
@@ -13,4 +17,7 @@ el: '#app',
         loading2: true,
         loading3: false,
     }
-}) 
+})
+import chai from 'chai'
+import spies from 'chai-spies'
+chai.use(spies)
