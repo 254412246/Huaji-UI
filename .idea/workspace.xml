@@ -28,25 +28,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98ab9bdc-5cea-45b0-b371-711d37aec255" name="默认的" comment="添加 input.vue 及其样式">
-      <change afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/input.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/svg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/button.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/button-group.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button-group.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/icon.vue" afterDir="false" />
-    </list>
-    <list id="dbe5dff6-9400-48f1-9d98-7a1af36c47bc" name="闭合标签" comment="">
-      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
-    </list>
+    <list default="true" id="98ab9bdc-5cea-45b0-b371-711d37aec255" name="默认的" comment="添加 input.vue 及其样式" />
+    <list id="dbe5dff6-9400-48f1-9d98-7a1af36c47bc" name="闭合标签" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,22 +44,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/button.vue">
-      <ranges>
-        <range start1="1" end1="3" start2="1" end2="5" changelist="dbe5dff6-9400-48f1-9d98-7a1af36c47bc" />
-        <range start1="9" end1="9" start2="11" end2="12" changelist="98ab9bdc-5cea-45b0-b371-711d37aec255" />
-        <range start1="10" end1="10" start2="13" end2="17" changelist="98ab9bdc-5cea-45b0-b371-711d37aec255" />
-        <range start1="26" end1="27" start2="33" end2="34" changelist="98ab9bdc-5cea-45b0-b371-711d37aec255" />
-      </ranges>
-    </file>
   </component>
   <component name="ProjectId" id="1gEQiVr36CMKtQkghqIsWrF7WJQ" />
   <component name="ProjectLevelVcsManager">
@@ -128,6 +102,9 @@
       <workItem from="1597914202900" duration="6927000" />
       <workItem from="1598086070062" duration="1405000" />
       <workItem from="1598366298857" duration="3953000" />
+      <workItem from="1598674876370" duration="805000" />
+      <workItem from="1598677635713" duration="3284000" />
+      <workItem from="1598712318489" duration="480000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1597682441065</created>
@@ -292,6 +269,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="458" y="0" width="728" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598414687784" />
+    <state x="431" y="154" width="888" height="584" key="DiffContextDialog" timestamp="1598674860891">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="154" width="888" height="584" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1598674860891" />
     <state x="744" y="153" key="FileChooserDialogImpl" timestamp="1597679441799">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
