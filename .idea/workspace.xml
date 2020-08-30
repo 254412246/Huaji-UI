@@ -29,14 +29,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98ab9bdc-5cea-45b0-b371-711d37aec255" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/components/button.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/get-started/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/install/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/assets/img/huaji.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/huaji.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/images.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/col.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/row.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/components/button.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/components/button.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
     <list id="dbe5dff6-9400-48f1-9d98-7a1af36c47bc" name="闭合标签" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +82,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/.vuepress/assets/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -84,6 +91,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\20191122\jirengu\gulu-demo\docs\.vuepress\assets\img" />
+      <recent name="F:\20191122\jirengu\gulu-demo\docs\.vuepress\public" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -114,7 +127,10 @@
       <workItem from="1598674876370" duration="805000" />
       <workItem from="1598677635713" duration="3284000" />
       <workItem from="1598712318489" duration="480000" />
-      <workItem from="1598712815163" duration="2734000" />
+      <workItem from="1598712815163" duration="8782000" />
+      <workItem from="1598805693596" duration="804000" />
+      <workItem from="1598806600581" duration="20000" />
+      <workItem from="1598808213893" duration="2886000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1597682441065</created>
@@ -221,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598713120411</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="完成官网侧边栏">
+      <created>1598715833477</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1598715833477</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -272,7 +295,8 @@
     <MESSAGE value="第一个元素不需要 margin left -1px" />
     <MESSAGE value="添加 input.vue 及其样式" />
     <MESSAGE value="创建官网雏形" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建官网雏形" />
+    <MESSAGE value="完成官网侧边栏" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成官网侧边栏" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="281" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1597678883226">
@@ -283,10 +307,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="695" y="170" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597735382344" />
-    <state x="458" y="0" width="728" height="824" key="CommitChangelistDialog2" timestamp="1598713119510">
+    <state x="458" y="0" width="728" height="824" key="CommitChangelistDialog2" timestamp="1598715832284">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="458" y="0" width="728" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598713119510" />
+    <state x="458" y="0" width="728" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598715832284" />
     <state x="431" y="154" width="888" height="584" key="DiffContextDialog" timestamp="1598674860891">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
