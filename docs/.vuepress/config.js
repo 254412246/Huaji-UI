@@ -1,16 +1,17 @@
 module.exports = {
     base: '/gulu-demo/',
-    // theme: 'reco',
+    theme: 'vuepress-theme-reco',
     title: '滑稽UI',
-
+    dest: 'public',
     description: '一个好用的UI框架',
     themeConfig: {
         logo: '/assets/huaji.svg',
-        noFoundPageByTencent: false,
+        lastUpdated: 'Last Updated',//最后更新时间
+        smoothScroll: true,//页面滚动
         nav: [
-            {text: '主页', link: '/',icon: 'reco-home'},
-            {text: '文档', link: '/guide/',icon: 'reco-document'},
-            {text: '交流', link: 'https://github.com/254412246',icon: 'reco-github'},
+            {text: '主页', link: '/'},
+            {text: '文档', link: '/startup/'},
+            {text: '交流', link: 'https://github.com/254412246'},
         ],
         sidebar: [
             {
