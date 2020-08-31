@@ -12,7 +12,6 @@ Vue.component('g-button-group', ButtonGroup)
 Vue.component('g-input', Input)
 Vue.component('g-row', Row)
 Vue.component('g-col', Col)
-
 new Vue({
 el: '#app',
     data: {
@@ -22,6 +21,3 @@ el: '#app',
         message: 'hi'
     }
 })
-import chai from 'chai'
-import spies from 'chai-spies'
-chai.use(spies)
