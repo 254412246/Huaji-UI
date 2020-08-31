@@ -1,11 +1,12 @@
 module.exports = {
     base: '/gulu-demo/',
-    title: '轱辘UI',
     theme: 'reco',
+    title: '滑稽UI',
     description: '一个好用的UI框架',
     themeConfig: {
-        logo: '/assets/huaji.svg',
-        // authorAvatar: '/assets/huaji.svg',
+        lastUpdated: 'Last Updated', // string | boolean
+        logo: '/public/images.png',
+        authorAvatar: '/public/huaji.svg',
         nav: [
             {text: '主页', link: '/'},
             {text: '文档', link: '/guide/'},
@@ -22,10 +23,11 @@ module.exports = {
             {
                 title: '组件',
                 children: [
-                    '/components/button',
+                    '/components/button'
                 ]
             },
 
-        ]
+        ],
+
     }
 }
