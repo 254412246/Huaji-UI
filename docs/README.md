@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /assets/huaji.svg
-heroText: Lemon UI
+heroText: 滑稽 UI
 tagline: 一个基于 Vue + Sass 的 UI 组件库
 actionText: 快速上手 →
 actionLink: /startup/

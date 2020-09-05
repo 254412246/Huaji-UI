@@ -1,6 +1,6 @@
 module.exports = {
     base: '/gulu-demo/',
-    theme: 'vuepress-theme-reco',
+    // theme: 'vuepress-theme-reco',
     title: '滑稽UI',
     dest: 'public',
     plugins: [
