@@ -30,6 +30,7 @@
   <component name="ChangeListManager">
     <list default="true" id="98ab9bdc-5cea-45b0-b371-711d37aec255" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/col.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/col.vue" afterDir="false" />
     </list>
     <list id="8e50d201-b716-4024-b737-a80f36fa73a6" name="解决首页侧边栏的问题，需要多加一层docs根目录" comment="">
@@ -138,7 +139,7 @@
       <workItem from="1598879868722" duration="4930000" />
       <workItem from="1598935660572" duration="1393000" />
       <workItem from="1599120006632" duration="886000" />
-      <workItem from="1599287677967" duration="2878000" />
+      <workItem from="1599287677967" duration="3947000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1597682441065</created>
@@ -287,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599316329838</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="初步实现响应式">
+      <created>1599353808144</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1599353808144</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -343,7 +351,8 @@
     <MESSAGE value="Button - 按钮 页面完成" />
     <MESSAGE value="重构 row 和 col" />
     <MESSAGE value="添加 row 的 align=left/right/center 属性" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 row 的 align=left/right/center 属性" />
+    <MESSAGE value="初步实现响应式" />
+    <option name="LAST_COMMIT_MESSAGE" value="初步实现响应式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="281" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1597678883226">
@@ -354,10 +363,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="695" y="170" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597735382344" />
-    <state x="458" y="0" width="728" height="824" key="CommitChangelistDialog2" timestamp="1599316328396">
+    <state x="458" y="0" width="728" height="824" key="CommitChangelistDialog2" timestamp="1599353806642">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="458" y="0" width="728" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599316328396" />
+    <state x="458" y="0" width="728" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599353806642" />
     <state x="431" y="154" width="888" height="584" key="DiffContextDialog" timestamp="1598674860891">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
