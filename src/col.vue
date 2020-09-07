@@ -55,6 +55,7 @@ export default {
 </script>
 <style scoped lang="scss">
 .col {
+  //响应式，根据不同的分辨率决定，先从手机开始到ipad，pc,默认是手机
   $class-prefix: col-;
   @for $n from 1 through 24 {
     &.#{$class-prefix}#{$n} {
