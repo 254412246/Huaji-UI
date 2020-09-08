@@ -29,8 +29,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98ab9bdc-5cea-45b0-b371-711d37aec255" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gulu-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Huaji-UI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <list id="8e50d201-b716-4024-b737-a80f36fa73a6" name="解决首页侧边栏的问题，需要多加一层docs根目录" comment="解决首页侧边栏的问题，需要多加一层docs根目录">
       <change afterPath="$PROJECT_DIR$/docs/.vuepress/styles/palette.styl" afterDir="false" />
@@ -64,6 +68,16 @@
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/package.json">
+      <ranges>
+        <range start1="1" end1="2" start2="1" end2="2" changelist="98ab9bdc-5cea-45b0-b371-711d37aec255" />
+        <range start1="32" end1="33" start2="32" end2="33" changelist="8e50d201-b716-4024-b737-a80f36fa73a6" />
+        <range start1="35" end1="35" start2="35" end2="36" changelist="8e50d201-b716-4024-b737-a80f36fa73a6" />
+        <range start1="46" end1="47" start2="47" end2="49" changelist="8e50d201-b716-4024-b737-a80f36fa73a6" />
+      </ranges>
+    </file>
   </component>
   <component name="ProjectId" id="1gEQiVr36CMKtQkghqIsWrF7WJQ" />
   <component name="ProjectLevelVcsManager">
@@ -139,7 +153,8 @@
       <workItem from="1598935660572" duration="1393000" />
       <workItem from="1599120006632" duration="886000" />
       <workItem from="1599287677967" duration="4829000" />
-      <workItem from="1599495290602" duration="2775000" />
+      <workItem from="1599495290602" duration="3580000" />
+      <workItem from="1599529797614" duration="1166000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1597682441065</created>
@@ -316,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599528300216</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="基本功能完成">
+      <created>1599529125726</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1599529125726</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -351,7 +373,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="npm install vue" />
     <MESSAGE value="安装 package" />
     <MESSAGE value="将 button 组件改为单文件组件" />
     <MESSAGE value="填写 icon 和 iconPosition 属性" />
@@ -376,7 +397,8 @@
     <MESSAGE value="响应式基本完成" />
     <MESSAGE value="创建布局文件（4个）" />
     <MESSAGE value="创建布局文件（5个）" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建布局文件（5个）" />
+    <MESSAGE value="基本功能完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本功能完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="281" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1597678883226">
@@ -387,10 +409,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="695" y="170" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597735382344" />
-    <state x="411" y="0" width="838" height="824" key="CommitChangelistDialog2" timestamp="1599528299461">
+    <state x="411" y="0" width="838" height="824" key="CommitChangelistDialog2" timestamp="1599529124060">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="411" y="0" width="838" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599528299461" />
+    <state x="411" y="0" width="838" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599529124060" />
     <state x="431" y="154" width="888" height="584" key="DiffContextDialog" timestamp="1598674860891">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
