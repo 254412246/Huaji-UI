@@ -12,6 +12,9 @@ import Content from './content'
 import Footer from './footer'
 import Toast from './toast'
 import plugin from './plugin'
+import createElement from 'vue'
+
+const h = createElement
 
 Vue.component('g-button', Button)
 Vue.component('g-icon', Icon)
@@ -30,6 +33,9 @@ Vue.use(plugin)
 new Vue({
 el: '#app',
     created(){
+        this.$toast('文字', {
+            enableHtml: false
+        })
     },
     methods: {
         showToast(){
