@@ -12,9 +12,7 @@ import Content from './content'
 import Footer from './footer'
 import Toast from './toast'
 import plugin from './plugin'
-import createElement from 'vue'
 
-const h = createElement
 
 Vue.component('g-button', Button)
 Vue.component('g-icon', Icon)
@@ -27,19 +25,35 @@ Vue.component('g-header', Header)
 Vue.component('g-content', Content)
 Vue.component('g-footer', Footer)
 Vue.component('g-sider', Sider)
-Vue.component('g-toast', Toast)
+Vue.component('g-toast',Toast)
 Vue.use(plugin)
+import createElement from 'vue'
 
+const h = createElement
 new Vue({
-el: '#app',
+    el: '#app',
+    data: {
+        loading1: false,
+        loading2: true,
+        loading3: false,
+        message: 'hi'
+    },
     created(){
-        this.$toast('文字', {
-            enableHtml: false
+        this.$toast('你的智商需要充值！', {
+            position: 'bottom',
+            enableHtml: false,
+            closeButton: {
+                text: '已充值',
+                callback () {
+                    console.log('他说已经充值智商了')
+                }
+            },
+            autoClose: false,
+            autoCloseDelay: 3
         })
     },
     methods: {
         showToast(){
-            this.$toast('我是 message')
         }
     }
 })
