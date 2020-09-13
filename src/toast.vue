@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper" :class="toastClasses">
+  <div class="wrapper" :class="toastClasses"><!--2个div,一个负责居中，一个负责上中下样式-->
     <div class="toast" ref="toast">
       <div class="message">
         <slot v-if="!enableHtml"></slot>
@@ -22,7 +22,7 @@ export default {
     },
     autoCloseDelay: {
       type: Number,
-      default: 50
+      default: 5
     },
     closeButton: {
       type: Object,
