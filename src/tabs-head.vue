@@ -19,9 +19,9 @@ export default {
 $tab-height: 40px;
 .tabs-head {
   display: flex;
-  justify-content: center;
-  align-items: center;
   height: $tab-height;
+  justify-content: flex-start;
+
   border: 1px solid red;
   > .actions-wrapper {
     margin-left: auto;
