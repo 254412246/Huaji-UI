@@ -28,7 +28,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98ab9bdc-5cea-45b0-b371-711d37aec255" name="默认的" comment="" />
+    <list default="true" id="98ab9bdc-5cea-45b0-b371-711d37aec255" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tabs-head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-head.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tabs-item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-item.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tabs-pane.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-pane.vue" afterDir="false" />
+    </list>
     <list id="8e50d201-b716-4024-b737-a80f36fa73a6" name="解决首页侧边栏的问题，需要多加一层docs根目录" comment="解决首页侧边栏的问题，需要多加一层docs根目录">
       <change afterPath="$PROJECT_DIR$/docs/.vuepress/styles/palette.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
@@ -143,7 +148,7 @@
       <workItem from="1599831324280" duration="6625000" />
       <workItem from="1600081501742" duration="595000" />
       <workItem from="1600251149578" duration="8203000" />
-      <workItem from="1600429735304" duration="1966000" />
+      <workItem from="1600429735304" duration="2616000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1597682441065</created>
@@ -404,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600433289568</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="tab 切换动画完成">
+      <created>1600439198095</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1600439198095</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -439,7 +451,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="检测子元素是不是 button" />
     <MESSAGE value="第一个元素不需要 margin left -1px" />
     <MESSAGE value="添加 input.vue 及其样式" />
     <MESSAGE value="创建官网雏形" />
@@ -464,7 +475,8 @@
     <MESSAGE value="tabs 可以切换了" />
     <MESSAGE value="增大tab item可点击区域" />
     <MESSAGE value="触发 update:selected 事件的时候添加一个 item 数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="触发 update:selected 事件的时候添加一个 item 数据" />
+    <MESSAGE value="tab 切换动画完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="tab 切换动画完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2508" y="213" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599941026394">
@@ -479,10 +491,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="695" y="170" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597735382344" />
-    <state x="411" y="0" width="838" height="824" key="CommitChangelistDialog2" timestamp="1600433287968">
+    <state x="411" y="0" width="838" height="824" key="CommitChangelistDialog2" timestamp="1600439196605">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="411" y="0" width="838" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600433287968" />
+    <state x="411" y="0" width="838" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600439196605" />
     <state x="514" y="0" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1599848585734" />
     <state x="2331" y="0" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1600399781039" />
     <state x="431" y="154" width="888" height="584" key="DiffContextDialog" timestamp="1598674860891">
