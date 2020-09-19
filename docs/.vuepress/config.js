@@ -1,6 +1,6 @@
 module.exports = {
     base: '/gulu-demo/',
-    // theme: 'vuepress-theme-reco',
+    theme: 'vuepress-theme-reco',
     title: '滑稽UI',
     dest: 'public',
     plugins: [
@@ -13,9 +13,9 @@ module.exports = {
         smoothScroll: true,//页面滚动
         noFoundPageByTencent: false,//404 腾讯公益
         nav: [
-            {text: '主页', link: '/',icon: 'reco-home'},
-            {text: '文档', link: 'docs/startup/',icon: 'reco-document'},
-            {text: '交流', link: 'https://github.com/254412246',icon: 'reco-github'},
+            {text: '主页', link: '/', icon: 'reco-home'},
+            {text: '文档', link: 'docs/startup/', icon: 'reco-document'},
+            {text: '交流', link: 'https://github.com/254412246', icon: 'reco-github'},
         ],
         sidebar: [
             {
