@@ -29,11 +29,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98ab9bdc-5cea-45b0-b371-711d37aec255" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tabs/tabs.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/components/grid-demos.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/components/grid-demos.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/components/grid-gutter-demos.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/components/grid-gutter-demos.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/col.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/col.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/components/tabs-demos.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/components/tabs-demos.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/components/tabs-disabled-demos.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/components/tabs-disabled-demos.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/input.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tabs-body.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs/tabs-body.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tabs-head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs/tabs-head.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tabs-item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs/tabs-item.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tabs-pane.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs/tabs-pane.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tabs.vue" beforeDir="false" />
     </list>
     <list id="8e50d201-b716-4024-b737-a80f36fa73a6" name="解决首页侧边栏的问题，需要多加一层docs根目录" comment="解决首页侧边栏的问题，需要多加一层docs根目录">
       <change afterPath="$PROJECT_DIR$/docs/.vuepress/styles/palette.styl" afterDir="false" />
@@ -68,14 +74,6 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/docs/.vuepress/config.js">
-      <ranges>
-        <range start1="1" end1="2" start2="1" end2="2" changelist="98ab9bdc-5cea-45b0-b371-711d37aec255" />
-        <range start1="19" end1="36" start2="19" end2="42" changelist="8e50d201-b716-4024-b737-a80f36fa73a6" />
-      </ranges>
-    </file>
-  </component>
   <component name="ProjectId" id="1gEQiVr36CMKtQkghqIsWrF7WJQ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="新增" />
@@ -90,7 +88,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/tabs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -101,14 +99,15 @@
     <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.css" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\20191122\jirengu\Huaji-UI\src\tabs" />
+      <recent name="F:\20191122\jirengu\gulu-demo\docs" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\20191122\jirengu\Huaji-UI\src" />
       <recent name="F:\20191122\jirengu\gulu-demo\docs\docs" />
       <recent name="F:\20191122\jirengu\gulu-demo\docs\.vuepress\public\assets" />
       <recent name="F:\20191122\jirengu\gulu-demo\docs\.vuepress\assets" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\20191122\jirengu\gulu-demo\docs" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -161,7 +160,7 @@
       <workItem from="1600491313498" duration="4123000" />
       <workItem from="1600497001706" duration="2130000" />
       <workItem from="1600529096943" duration="3214000" />
-      <workItem from="1600572120095" duration="2887000" />
+      <workItem from="1600572120095" duration="6924000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1597682441065</created>
@@ -457,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600538073798</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Grid - 网格 完成">
+      <created>1600599112958</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1600599112958</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -492,7 +498,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="解决首页侧边栏的问题，需要多加一层docs根目录" />
     <MESSAGE value="Button - 按钮 页面完成" />
     <MESSAGE value="重构 row 和 col" />
     <MESSAGE value="添加 row 的 align=left/right/center 属性" />
@@ -517,7 +522,8 @@
     <MESSAGE value="支持 disabled 功能" />
     <MESSAGE value="添加部分测试用例" />
     <MESSAGE value="Input - 输入框.md 完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="Input - 输入框.md 完成" />
+    <MESSAGE value="Grid - 网格 完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="Grid - 网格 完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2508" y="213" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599941026394">
@@ -532,20 +538,21 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="695" y="170" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597735382344" />
-    <state x="2331" y="0" width="838" height="824" key="CommitChangelistDialog2" timestamp="1600538071514">
+    <state x="2331" y="0" width="838" height="824" key="CommitChangelistDialog2" timestamp="1600599111148">
       <screen x="1920" y="0" width="1536" height="832" />
     </state>
     <state x="411" y="0" width="838" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600440627866" />
     <state x="514" y="0" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1599848585734" />
-    <state x="2331" y="0" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1600538071514" />
+    <state x="2331" y="0" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1600599111148" />
     <state x="431" y="154" width="888" height="584" key="DiffContextDialog" timestamp="1598674860891">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="154" width="888" height="584" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1598674860891" />
-    <state x="744" y="153" key="FileChooserDialogImpl" timestamp="1599120427138">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2664" y="154" key="FileChooserDialogImpl" timestamp="1600608889505">
+      <screen x="1920" y="0" width="1536" height="832" />
     </state>
     <state x="744" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599120427138" />
+    <state x="2664" y="154" key="FileChooserDialogImpl/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1600608889505" />
     <state width="1052" height="195" key="GridCell.Tab.0.bottom" timestamp="1598872959514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -575,12 +582,12 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="831" y="349" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1598874964054" />
-    <state x="2281" y="146" key="Vcs.Push.Dialog.v2" timestamp="1600540692605">
+    <state x="2281" y="146" key="Vcs.Push.Dialog.v2" timestamp="1600599086533">
       <screen x="1920" y="0" width="1536" height="832" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599584068914" />
     <state x="451" y="183" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1599848591461" />
-    <state x="2281" y="146" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1600540692605" />
+    <state x="2281" y="146" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1600599086533" />
     <state x="486" y="135" width="888" height="584" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598872333104">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

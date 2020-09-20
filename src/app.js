@@ -12,11 +12,11 @@ import Content from './content'
 import Footer from './footer'
 import Toast from './toast'
 import plugin from './toastPlugin'
-import Tabs from './tabs'
-import TabsHead from './tabs-head'
-import TabsBody from './tabs-body'
-import TabsItem from './tabs-item'
-import TabsPane from './tabs-pane'
+import Tabs from './tabs/tabs'
+import TabsHead from './tabs/tabs-head'
+import TabsBody from './tabs/tabs-body'
+import TabsItem from './tabs/tabs-item'
+import TabsPane from './tabs/tabs-pane'
 
 
 Vue.component('g-button', Button)

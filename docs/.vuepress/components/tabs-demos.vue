@@ -20,11 +20,11 @@
 
 <script>
 import templateDemos from "./template-demos";
-import Tabs from "../../../src/Tabs";
-import TabsHead from "../../../src/tabs-head";
-import TabsItem from "../../../src/tabs-item";
-import TabsBody from "../../../src/tabs-body";
-import TabsPane from "../../../src/tabs-pane";
+import Tabs from "../../../src/tabs/tabs";
+import TabsHead from "../../../src/tabs/tabs-head";
+import TabsItem from "../../../src/tabs/tabs-item";
+import TabsBody from "../../../src/tabs/tabs-body";
+import TabsPane from "../../../src/tabs/tabs-pane";
 import Button from "../../../src/Button";
 export default {
   name: "collapse-demos",

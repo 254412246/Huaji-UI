@@ -6,6 +6,7 @@
            @focus="$emit('focus', $event.target.value)"
            @blur="$emit('blur', $event.target.value)"
     >
+    <!-- $emit 参数1：事件名，参数2：传出的第一个参数，参数3：传出的第二个参数 -->
     <template v-if="error">
       <icon name="error" class="icon-error"></icon>
       <span class="errorMessage">{{error}}</span>
