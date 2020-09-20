@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/gulu-demo/',
+    base: '/Huaji-UI/',
     theme: 'vuepress-theme-reco',
     title: '滑稽UI',
     dest: 'public',

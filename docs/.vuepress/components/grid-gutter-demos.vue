@@ -33,8 +33,8 @@
 </template>
 
 <script>
-import Row from "../../../src/Row";
-import Col from "../../../src/Col";
+import Row from "../../../src/row";
+import Col from "../../../src/col";
 import templateDemos from "./template-demos";
 export default {
   name: "button-simple-demos",
