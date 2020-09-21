@@ -9,7 +9,8 @@ export default {
             if (currentToast) {
                 currentToast.close()
             }
-            currentToast = createToast({Vue,
+            currentToast = createToast({
+                Vue,
                 message,
                 propsData: toastOptions,
                 onClose: () => {
