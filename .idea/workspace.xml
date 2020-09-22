@@ -28,11 +28,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98ab9bdc-5cea-45b0-b371-711d37aec255" name="默认的" comment="Toast - 弹窗 完成">
+    <list default="true" id="98ab9bdc-5cea-45b0-b371-711d37aec255" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <list id="8e50d201-b716-4024-b737-a80f36fa73a6" name="解决首页侧边栏的问题，需要多加一层docs根目录" comment="解决首页侧边栏的问题，需要多加一层docs根目录" />
     <list id="dbe5dff6-9400-48f1-9d98-7a1af36c47bc" name="闭合标签" comment="" />
@@ -166,7 +165,7 @@
       <workItem from="1600777612305" duration="972000" />
       <workItem from="1600782096313" duration="1286000" />
       <workItem from="1600783414865" duration="410000" />
-      <workItem from="1600783840778" duration="1220000" />
+      <workItem from="1600783840778" duration="1539000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1597682441065</created>
@@ -483,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600699455944</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="弹窗-按钮-输入框-网格-标签栏 完成&#10;尝试完成官网">
+      <created>1600785660266</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1600785660266</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -518,7 +524,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="添加 row 的 align=left/right/center 属性" />
     <MESSAGE value="初步实现响应式" />
     <MESSAGE value="响应式基本完成" />
     <MESSAGE value="创建布局文件（4个）" />
@@ -543,7 +548,8 @@
     <MESSAGE value="Grid - 网格 完成" />
     <MESSAGE value="Tabs - 标签栏 完成&#10;移动目录结构" />
     <MESSAGE value="Toast - 弹窗 完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="Toast - 弹窗 完成" />
+    <MESSAGE value="弹窗-按钮-输入框-网格-标签栏 完成&#10;尝试完成官网" />
+    <option name="LAST_COMMIT_MESSAGE" value="弹窗-按钮-输入框-网格-标签栏 完成&#10;尝试完成官网" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2508" y="213" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599941026394">
@@ -558,12 +564,12 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="695" y="170" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597735382344" />
-    <state x="2331" y="0" width="838" height="824" key="CommitChangelistDialog2" timestamp="1600783298782">
+    <state x="2331" y="0" width="838" height="824" key="CommitChangelistDialog2" timestamp="1600785658972">
       <screen x="1920" y="0" width="1536" height="832" />
     </state>
     <state x="411" y="0" width="838" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600440627866" />
     <state x="514" y="0" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1599848585734" />
-    <state x="2331" y="0" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1600783298782" />
+    <state x="2331" y="0" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1600785658972" />
     <state x="431" y="154" width="888" height="584" key="DiffContextDialog" timestamp="1598674860891">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -612,8 +618,8 @@
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599584068914" />
     <state x="451" y="183" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1599848591461" />
     <state x="2281" y="146" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1600708928490" />
-    <state x="486" y="135" width="888" height="584" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598872333104">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="486" y="135" width="888" height="584" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600785740937">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="486" y="135" width="888" height="584" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1598872333104" />
     <state x="109" y="167" width="601" height="536" key="find.popup" timestamp="1599120453536">
