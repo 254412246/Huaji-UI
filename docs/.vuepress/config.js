@@ -1,8 +1,8 @@
 module.exports = {
     base: '/Huaji-UI/',
-    theme: 'vuepress-theme-reco',
+    // theme: 'vuepress-theme-reco',
     title: '滑稽UI',
-    dest: 'public',
+    // dest: 'public',
     plugins: [
         '@vuepress-reco/extract-code'
     ],
