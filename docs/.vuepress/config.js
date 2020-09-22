@@ -17,22 +17,27 @@ module.exports = {
             {text: '文档', link: 'docs/startup/', icon: 'reco-document'},
             {text: '交流', link: 'https://github.com/254412246', icon: 'reco-github'},
         ],
-        sidebar: [
-            {
-                title: '入门',
-                children: [
-                    '/install/',
-                    '/startup/'
-                ]
-            },
-            {
-                title: '组件',
-                children: [
-                    '/components/button'
-                ]
-            },
-
-        ],
-
+        sidebar: {
+            '/docs/': [
+                {
+                    title: '入门',
+                    children: [
+                        'introduce/',
+                        'startup/'
+                    ],
+                    collapsable: false,
+                }, {
+                    title: '组件',
+                    children: [
+                        'components/button',
+                        'components/input',
+                        'components/grid',
+                        'components/tabs',
+                        'components/toast',
+                    ],
+                    collapsable: false,
+                }
+            ]
+        }
     }
 }
